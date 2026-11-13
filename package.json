@@ -1,0 +1,9 @@
+{
+  "name": "jewellery-exchange-controls",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "node --test tests/policy.test.js",
+    "demo": "node src/run.js"
+  }
+}

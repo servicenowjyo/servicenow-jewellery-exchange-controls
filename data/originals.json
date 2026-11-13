@@ -1,0 +1,52 @@
+{
+  "SYN-B001-L1": {
+    "eligible_paise": 1000000,
+    "customer_token": "SYN-C001",
+    "policy": "SILVER55_V1"
+  },
+  "SYN-B002-L1": {
+    "eligible_paise": 2000000,
+    "customer_token": "SYN-C002",
+    "policy": "SILVER55_V1"
+  },
+  "SYN-B003-L1": {
+    "eligible_paise": 3000000,
+    "customer_token": "SYN-C003",
+    "policy": "SILVER55_V1"
+  },
+  "SYN-B004-L1": {
+    "eligible_paise": 4000000,
+    "customer_token": "SYN-C004",
+    "policy": "SILVER55_V1"
+  },
+  "SYN-B005-L1": {
+    "eligible_paise": 5000000,
+    "customer_token": "SYN-C005",
+    "policy": "SILVER55_V1"
+  },
+  "SYN-B006-L1": {
+    "eligible_paise": 6000000,
+    "customer_token": "SYN-C006",
+    "policy": "SILVER55_V1"
+  },
+  "SYN-B007-L1": {
+    "eligible_paise": 12000000,
+    "customer_token": "SYN-C007",
+    "policy": "SILVER55_V1"
+  },
+  "SYN-B008-L1": {
+    "eligible_paise": 8000000,
+    "customer_token": "SYN-C008",
+    "policy": "SILVER55_V1"
+  },
+  "SYN-B009-L1": {
+    "eligible_paise": 9000000,
+    "customer_token": "SYN-C009",
+    "policy": "LEGACY_UNKNOWN"
+  },
+  "SYN-B010-L1": {
+    "eligible_paise": 1000000,
+    "customer_token": "SYN-C010",
+    "policy": "SILVER55_V1"
+  }
+}

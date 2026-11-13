@@ -1,0 +1,16 @@
+table,field,type,notes
+u_jewel_original,u_item_key,String 80,mandatory unique
+u_jewel_original,u_customer_token,String 80,mandatory
+u_jewel_original,u_eligible_paise,Integer,mandatory trusted amount
+u_jewel_original,u_policy,String 40,mandatory
+u_jewel_redemption,u_original_item,String 80,mandatory unique
+u_jewel_exchange_case,EXTENDS,Task,standalone PDI demo
+u_jewel_exchange_case,u_original_item,String 80,mandatory
+u_jewel_exchange_case,u_customer_token,String 80,mandatory
+u_jewel_exchange_case,u_claimed_paise,Integer,mandatory
+u_jewel_exchange_case,u_item_received,True False,default false
+u_jewel_exchange_case,u_expected_paise,Integer,read only
+u_jewel_exchange_case,u_triage,String 40,read only
+u_jewel_exchange_case,u_reasons,String 1000,read only
+u_jewel_exchange_case,u_result,String 4000,read only
+u_jewel_exchange_case,correlation_id,Inherited Task field,unique demo case identity

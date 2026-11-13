@@ -1,0 +1,5 @@
+Legal publisher downloads (no pirated commercial books):
+Financial Accounting: https://assets.openstax.org/oscms-prodcms/media/documents/principles-financial-accounting_-_WEB.pdf
+Managerial Accounting: https://assets.openstax.org/oscms-prodcms/media/documents/principles-managerial-accounting_-_WEB.pdf
+Publisher details/licenses and suggested reading: ../docs/SOURCES.md
+Links verified on publisher pages. PDFs are not bundled or republished.

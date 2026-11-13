@@ -1,0 +1,13 @@
+Less repetitive checking. More time for finance decisions. 💎
+
+I built a jewellery exchange-control prototype for ServiceNow: validate the original bill, calculate policy-based credit and route exceptions for human review.
+
+Verified ServiceNow PDI: 12 synthetic claims → 5 ready, 7 held, 12 human-review tasks. JavaScript, Business Rules and audit-friendly case tracking.
+
+The infographic shows local batch results (4 ready/8 held): batch mode flags both duplicate claims; sequential intake flags the later one.
+
+Independent learning project inspired by a public retail policy—not a client deployment. Time savings are a target, not a measured claim.
+
+💻 GitHub: https://github.com/servicenowjyo
+
+#ServiceNow #JavaScript #FinanceAutomation #WorkflowAutomation #ServiceNowDeveloper

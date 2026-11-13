@@ -1,0 +1,28 @@
+Use case: infographic-diagram
+Asset type: polished LinkedIn portrait infographic, 4:5 composition, high resolution.
+Primary request: A beautiful recruiter-facing white-background infographic for an independent ServiceNow jewellery finance learning project by servicenowjyo. Bright colourful detailed isometric illustrations of silver Indian jewellery, a receipt, a small calculator, linked workflow cards, a shield and a human reviewer. Professional editorial design, generous white space, dark navy typography, teal, royal blue, violet and warm gold accents. Large readable text, few words, elegant alignment. No company logos, no Emmadi name or affiliation.
+Exact text:
+"JEWELLERY EXCHANGE
+SMARTER FINANCE TRIAGE"
+"ServiceNow learning project"
+Four visual steps:
+"1  Validate original bill"
+"2  Calculate policy credit"
+"3  Flag repeat claims"
+"4  Route human review"
+Large metrics band:
+"12 synthetic claims"
+"4 ready for approval"
+"8 held for review"
+Code panel titled "Core JavaScript" with EXACT three lines in a legible monospace font:
+"var credit = Math.round(paise * 55 / 100);"
+"if (duplicate) reasons.push('DUPLICATE');"
+"var status = reasons.length ? 'HOLD' : 'REVIEW';"
+Tiny panel subtitle "Illustrative policy logic"
+Bottom:
+"Target: triage in minutes • Savings not yet measured"
+"Local demo • Not a client deployment"
+"github.com/servicenowjyo"
+Hashtag row at bottom:
+"#ServiceNow  #JavaScript  #FinanceAutomation"
+Constraints: pure white background, colourful jewellery and workflow images; every metric labelled synthetic/local; no promise of financial savings; no fake ServiceNow screenshot or copied interface; no logo imitation. Keep all text within generous margins.

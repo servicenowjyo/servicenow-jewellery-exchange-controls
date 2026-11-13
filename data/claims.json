@@ -1,0 +1,86 @@
+[
+  {
+    "id": "JEX-001",
+    "original_item": "SYN-B001-L1",
+    "customer_token": "SYN-C001",
+    "claimed_paise": 550000,
+    "item_received": true
+  },
+  {
+    "id": "JEX-002",
+    "original_item": "SYN-B002-L1",
+    "customer_token": "SYN-C002",
+    "claimed_paise": 1100000,
+    "item_received": true
+  },
+  {
+    "id": "JEX-003",
+    "original_item": "SYN-B003-L1",
+    "customer_token": "SYN-C003",
+    "claimed_paise": 1650000,
+    "item_received": true
+  },
+  {
+    "id": "JEX-004",
+    "original_item": "SYN-B004-L1",
+    "customer_token": "SYN-C004",
+    "claimed_paise": 2200000,
+    "item_received": true
+  },
+  {
+    "id": "JEX-005",
+    "original_item": "SYN-B005-L1",
+    "customer_token": "SYN-C005",
+    "claimed_paise": 2875000,
+    "item_received": true
+  },
+  {
+    "id": "JEX-006",
+    "original_item": "SYN-B006-L1",
+    "customer_token": "SYN-WRONG",
+    "claimed_paise": 3300000,
+    "item_received": true
+  },
+  {
+    "id": "JEX-007",
+    "original_item": "SYN-B007-L1",
+    "customer_token": "SYN-C007",
+    "claimed_paise": 6600000,
+    "item_received": true
+  },
+  {
+    "id": "JEX-008",
+    "original_item": "SYN-B008-L1",
+    "customer_token": "SYN-C008",
+    "claimed_paise": 4400000,
+    "item_received": false
+  },
+  {
+    "id": "JEX-009",
+    "original_item": "SYN-B009-L1",
+    "customer_token": "SYN-C009",
+    "claimed_paise": 4950000,
+    "item_received": true
+  },
+  {
+    "id": "JEX-010",
+    "original_item": "SYN-B010-L1",
+    "customer_token": "SYN-C010",
+    "claimed_paise": 550000,
+    "item_received": true
+  },
+  {
+    "id": "JEX-011",
+    "original_item": "SYN-B010-L1",
+    "customer_token": "SYN-C010",
+    "claimed_paise": 550000,
+    "item_received": true
+  },
+  {
+    "id": "JEX-012",
+    "original_item": "SYN-MISSING",
+    "customer_token": "SYN-C012",
+    "claimed_paise": 550000,
+    "item_received": true
+  }
+]

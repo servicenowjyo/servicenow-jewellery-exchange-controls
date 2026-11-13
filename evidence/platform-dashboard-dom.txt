@@ -1,0 +1,154 @@
+- region
+- region
+- banner:
+  - text: SERVICENOWJYO · DEVELOPER INSTANCE
+  - heading "Jewellery Finance Controls" [level=1]
+  - paragraph: Original purchase validation · policy credit · exception review
+- main:
+  - generic: SYNTHETIC PDI LAB · Independent learning project · Not an Emmadi deployment · No credit issued
+  - article:
+    - generic: "12"
+    - text: Persisted synthetic claims
+  - article:
+    - generic: "5"
+    - text: Ready for human approval
+  - article:
+    - generic: "7"
+    - text: Held for review
+  - article:
+    - generic: "12"
+    - text: Human-review tasks
+  - heading "Live platform results" [level=2]
+  - paragraph: Read directly from Jewellery Exchange Case records. Amounts shown in INR; stored as integer paise.
+  - table:
+    - rowgroup:
+      - row "Case Original item Claimed credit Expected credit Triage Review reason":
+        - columnheader "Case"
+        - columnheader "Original item"
+        - columnheader "Claimed credit"
+        - columnheader "Expected credit"
+        - columnheader "Triage"
+        - columnheader "Review reason"
+    - rowgroup:
+      - row "JEX-001 SYN-B001-L1 INR 5500.00 INR 5500.00 READY_FOR_APPROVAL Human approval required":
+        - cell "JEX-001":
+          - link "JEX-001":
+            - /url: u_jewel_exchange_case.do?sys_id=af98abd187acd3500fbae59e3fbb3535
+        - cell "SYN-B001-L1"
+        - cell "INR 5500.00"
+        - cell "INR 5500.00"
+        - cell "READY_FOR_APPROVAL"
+        - cell "Human approval required"
+      - row "JEX-002 SYN-B002-L1 INR 11000.00 INR 11000.00 READY_FOR_APPROVAL Human approval required":
+        - cell "JEX-002":
+          - link "JEX-002":
+            - /url: u_jewel_exchange_case.do?sys_id=6f98abd187acd3500fbae59e3fbb353e
+        - cell "SYN-B002-L1"
+        - cell "INR 11000.00"
+        - cell "INR 11000.00"
+        - cell "READY_FOR_APPROVAL"
+        - cell "Human approval required"
+      - row "JEX-003 SYN-B003-L1 INR 16500.00 INR 16500.00 READY_FOR_APPROVAL Human approval required":
+        - cell "JEX-003":
+          - link "JEX-003":
+            - /url: u_jewel_exchange_case.do?sys_id=6f98abd187acd3500fbae59e3fbb3542
+        - cell "SYN-B003-L1"
+        - cell "INR 16500.00"
+        - cell "INR 16500.00"
+        - cell "READY_FOR_APPROVAL"
+        - cell "Human approval required"
+      - row "JEX-004 SYN-B004-L1 INR 22000.00 INR 22000.00 READY_FOR_APPROVAL Human approval required":
+        - cell "JEX-004":
+          - link "JEX-004":
+            - /url: u_jewel_exchange_case.do?sys_id=6f98abd187acd3500fbae59e3fbb3546
+        - cell "SYN-B004-L1"
+        - cell "INR 22000.00"
+        - cell "INR 22000.00"
+        - cell "READY_FOR_APPROVAL"
+        - cell "Human approval required"
+      - row "JEX-005 SYN-B005-L1 INR 28750.00 INR 27500.00 HOLD CREDIT_MISMATCH":
+        - cell "JEX-005":
+          - link "JEX-005":
+            - /url: u_jewel_exchange_case.do?sys_id=6f98abd187acd3500fbae59e3fbb354a
+        - cell "SYN-B005-L1"
+        - cell "INR 28750.00"
+        - cell "INR 27500.00"
+        - cell "HOLD"
+        - cell "CREDIT_MISMATCH"
+      - row "JEX-006 SYN-B006-L1 INR 33000.00 INR 33000.00 HOLD ALREADY_EXCHANGED, CUSTOMER_MISMATCH":
+        - cell "JEX-006":
+          - link "JEX-006":
+            - /url: u_jewel_exchange_case.do?sys_id=7f98abd187acd3500fbae59e3fbb3567
+        - cell "SYN-B006-L1"
+        - cell "INR 33000.00"
+        - cell "INR 33000.00"
+        - cell "HOLD"
+        - cell "ALREADY_EXCHANGED, CUSTOMER_MISMATCH"
+      - row "JEX-007 SYN-B007-L1 INR 66000.00 INR 66000.00 HOLD HIGH_VALUE_REVIEW":
+        - cell "JEX-007":
+          - link "JEX-007":
+            - /url: u_jewel_exchange_case.do?sys_id=7f98abd187acd3500fbae59e3fbb356b
+        - cell "SYN-B007-L1"
+        - cell "INR 66000.00"
+        - cell "INR 66000.00"
+        - cell "HOLD"
+        - cell "HIGH_VALUE_REVIEW"
+      - row "JEX-008 SYN-B008-L1 INR 44000.00 INR 44000.00 HOLD ITEM_NOT_RECEIVED":
+        - cell "JEX-008":
+          - link "JEX-008":
+            - /url: u_jewel_exchange_case.do?sys_id=7f98abd187acd3500fbae59e3fbb356f
+        - cell "SYN-B008-L1"
+        - cell "INR 44000.00"
+        - cell "INR 44000.00"
+        - cell "HOLD"
+        - cell "ITEM_NOT_RECEIVED"
+      - row "JEX-009 SYN-B009-L1 INR 49500.00 INR 49500.00 HOLD POLICY_REVIEW":
+        - cell "JEX-009":
+          - link "JEX-009":
+            - /url: u_jewel_exchange_case.do?sys_id=7f98abd187acd3500fbae59e3fbb3573
+        - cell "SYN-B009-L1"
+        - cell "INR 49500.00"
+        - cell "INR 49500.00"
+        - cell "HOLD"
+        - cell "POLICY_REVIEW"
+      - row "JEX-010 SYN-B010-L1 INR 5500.00 INR 5500.00 READY_FOR_APPROVAL Human approval required":
+        - cell "JEX-010":
+          - link "JEX-010":
+            - /url: u_jewel_exchange_case.do?sys_id=7f98abd187acd3500fbae59e3fbb3577
+        - cell "SYN-B010-L1"
+        - cell "INR 5500.00"
+        - cell "INR 5500.00"
+        - cell "READY_FOR_APPROVAL"
+        - cell "Human approval required"
+      - row "JEX-011 SYN-B010-L1 INR 5500.00 INR 5500.00 HOLD DUPLICATE_BATCH_ITEM":
+        - cell "JEX-011":
+          - link "JEX-011":
+            - /url: u_jewel_exchange_case.do?sys_id=7f98abd187acd3500fbae59e3fbb357b
+        - cell "SYN-B010-L1"
+        - cell "INR 5500.00"
+        - cell "INR 5500.00"
+        - cell "HOLD"
+        - cell "DUPLICATE_BATCH_ITEM"
+      - row "JEX-012 SYN-MISSING INR 5500.00 — HOLD ORIGINAL_NOT_FOUND":
+        - cell "JEX-012":
+          - link "JEX-012":
+            - /url: u_jewel_exchange_case.do?sys_id=bf98abd187acd3500fbae59e3fbb357f
+        - cell "SYN-MISSING"
+        - cell "INR 5500.00"
+        - cell "—"
+        - cell "HOLD"
+        - cell "ORIGINAL_NOT_FOUND"
+  - heading "How it works" [level=2]
+  - paragraph: Before-insert Business Rule → Script Include → protected result snapshot → after-insert human-review task
+  - paragraph:
+    - strong: "Whole-item demo policy:"
+    - text: eligible original purchase × 55%. Human review is required for every case.
+  - paragraph:
+    - strong: "Duplicate handling:"
+    - text: sequential platform intake holds the later claim. Local batch mode holds both duplicate claims (4 ready / 8 held).
+  - paragraph:
+    - strong: "Time goal:"
+    - text: triage in minutes after import. Business handling-time savings have not been measured.
+- status
+- complementary "Timing details":
+  - button "Response Time": 

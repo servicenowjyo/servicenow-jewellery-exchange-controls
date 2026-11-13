@@ -1,0 +1,162 @@
+{
+  "summary": {
+    "environment": "LOCAL_NODE_SIMULATION_NOT_SERVICENOW",
+    "cases": 12,
+    "ready": 4,
+    "held": 8,
+    "engine_ms": 3.206,
+    "human_approval_required_for_all": true,
+    "production_savings_measured": false
+  },
+  "results": [
+    {
+      "id": "JEX-001",
+      "original_item": "SYN-B001-L1",
+      "claimed_paise": 550000,
+      "expected_paise": 550000,
+      "variance_paise": 0,
+      "status": "READY_FOR_APPROVAL",
+      "reasons": [],
+      "policy": "SILVER55_V1",
+      "payment_authorized": false
+    },
+    {
+      "id": "JEX-002",
+      "original_item": "SYN-B002-L1",
+      "claimed_paise": 1100000,
+      "expected_paise": 1100000,
+      "variance_paise": 0,
+      "status": "READY_FOR_APPROVAL",
+      "reasons": [],
+      "policy": "SILVER55_V1",
+      "payment_authorized": false
+    },
+    {
+      "id": "JEX-003",
+      "original_item": "SYN-B003-L1",
+      "claimed_paise": 1650000,
+      "expected_paise": 1650000,
+      "variance_paise": 0,
+      "status": "READY_FOR_APPROVAL",
+      "reasons": [],
+      "policy": "SILVER55_V1",
+      "payment_authorized": false
+    },
+    {
+      "id": "JEX-004",
+      "original_item": "SYN-B004-L1",
+      "claimed_paise": 2200000,
+      "expected_paise": 2200000,
+      "variance_paise": 0,
+      "status": "READY_FOR_APPROVAL",
+      "reasons": [],
+      "policy": "SILVER55_V1",
+      "payment_authorized": false
+    },
+    {
+      "id": "JEX-005",
+      "original_item": "SYN-B005-L1",
+      "claimed_paise": 2875000,
+      "expected_paise": 2750000,
+      "variance_paise": 125000,
+      "status": "HOLD",
+      "reasons": [
+        "CREDIT_MISMATCH"
+      ],
+      "policy": "SILVER55_V1",
+      "payment_authorized": false
+    },
+    {
+      "id": "JEX-006",
+      "original_item": "SYN-B006-L1",
+      "claimed_paise": 3300000,
+      "expected_paise": 3300000,
+      "variance_paise": 0,
+      "status": "HOLD",
+      "reasons": [
+        "ALREADY_EXCHANGED",
+        "CUSTOMER_MISMATCH"
+      ],
+      "policy": "SILVER55_V1",
+      "payment_authorized": false
+    },
+    {
+      "id": "JEX-007",
+      "original_item": "SYN-B007-L1",
+      "claimed_paise": 6600000,
+      "expected_paise": 6600000,
+      "variance_paise": 0,
+      "status": "HOLD",
+      "reasons": [
+        "HIGH_VALUE_REVIEW"
+      ],
+      "policy": "SILVER55_V1",
+      "payment_authorized": false
+    },
+    {
+      "id": "JEX-008",
+      "original_item": "SYN-B008-L1",
+      "claimed_paise": 4400000,
+      "expected_paise": 4400000,
+      "variance_paise": 0,
+      "status": "HOLD",
+      "reasons": [
+        "ITEM_NOT_RECEIVED"
+      ],
+      "policy": "SILVER55_V1",
+      "payment_authorized": false
+    },
+    {
+      "id": "JEX-009",
+      "original_item": "SYN-B009-L1",
+      "claimed_paise": 4950000,
+      "expected_paise": 4950000,
+      "variance_paise": 0,
+      "status": "HOLD",
+      "reasons": [
+        "POLICY_REVIEW"
+      ],
+      "policy": "SILVER55_V1",
+      "payment_authorized": false
+    },
+    {
+      "id": "JEX-010",
+      "original_item": "SYN-B010-L1",
+      "claimed_paise": 550000,
+      "expected_paise": 550000,
+      "variance_paise": 0,
+      "status": "HOLD",
+      "reasons": [
+        "DUPLICATE_BATCH_ITEM"
+      ],
+      "policy": "SILVER55_V1",
+      "payment_authorized": false
+    },
+    {
+      "id": "JEX-011",
+      "original_item": "SYN-B010-L1",
+      "claimed_paise": 550000,
+      "expected_paise": 550000,
+      "variance_paise": 0,
+      "status": "HOLD",
+      "reasons": [
+        "DUPLICATE_BATCH_ITEM"
+      ],
+      "policy": "SILVER55_V1",
+      "payment_authorized": false
+    },
+    {
+      "id": "JEX-012",
+      "original_item": "SYN-MISSING",
+      "claimed_paise": 550000,
+      "expected_paise": null,
+      "variance_paise": null,
+      "status": "HOLD",
+      "reasons": [
+        "ORIGINAL_NOT_FOUND"
+      ],
+      "policy": "SILVER55_V1",
+      "payment_authorized": false
+    }
+  ]
+}
